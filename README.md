@@ -1,7 +1,7 @@
 
 # CMOS Current Starved Voltage Controlled Oscillator VCO
 
-A complete transistor-level VCO. The circuit provides a pulse, whose frequence is controlled by the value of the Voltage source Vcntr. 5 inverters, placed as a Ring Oscillator topology, are used to achieve the pulse output, with a capacitor between 2 inverters to stabilze the circuit. All the inverters are provided with 25.4μΑ, by a PMOS and a NMOS current mirror, placed above and bellow them. The second stage consists of an inverter Buffer, that is 2x wider than the other inverters, who is responsible for isolating the output, but also making the Voltage swings more rapid .The circuit achieves consumption < 150μJ. The command ".ic V(n008)=0 " is used for Breaking DC Equilibrium.
+A complete transistor-level VCO. The circuit provides a pulse, whose frequence is controlled by the value of the Voltage source Vcntr. 5 inverters, placed as a Ring Oscillator topology, are used to achieve the pulse output, with a capacitor between 2 inverters to stabilze the circuit. All the inverters are provided with 25.4μΑ, by a PMOS and a NMOS current mirror, placed above and bellow them. The second stage consists of an inverter Buffer, that is 2x wider than the other inverters, who is responsible for isolating the output, but also making the Voltage swings more rapid .The circuit achieves consumption < 150μW. The command ".ic V(n008)=0 " is used for Breaking DC Equilibrium.
 
 All simulations and validations were performed in **LTspice**.
 
