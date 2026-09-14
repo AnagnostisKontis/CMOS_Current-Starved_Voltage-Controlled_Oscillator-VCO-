@@ -21,33 +21,28 @@ All simulations and validations were performed in **LTspice**.
 ## Transistor W/L Reference Table
 | Name |Type | W/L |
 | :--- | :--- | :--- |
-
 |**Mnmirror1**| NMOS | 1u/1u |
 |**Mnmirror2**| NMOS | 1u/1u |
 |**Mnmirror3**| NMOS | 1u/1u |
 |**Mnmirror4**| NMOS | 1u/1u |
 |**Mnmirror5**| NMOS | 1u/1u |
 |**Mnmirror6**| NMOS | 1u/1u |
-
 |**Mpmirror1**| PMOS | 2u/1u |
 |**Mpmirror2**| PMOS | 2u/1u |
 |**Mpmirror3**| PMOS | 2u/1u |
 |**Mpmirror4**| PMOS | 2u/1u |
 |**Mpmirror5**| PMOS | 2u/1u |
 |**Mpmirror6**| PMOS | 2u/1u |
-
 |**Mpinv1**| PMOS | 4u/1u |
 |**Mpinv2**| PMOS | 4u/1u |
 |**Mpinv3**| PMOS | 4u/1u |
 |**Mpinv4**| PMOS | 4u/1u |
 |**Mpinv5**| PMOS | 4u/1u |
-
 |**Mninv1**| NMOS | 2u/1u |
 |**Mninv2**| NMOS | 2u/1u |
 |**Mninv3**| NMOS | 2u/1u |
 |**Mninv4**| NMOS | 2u/1u |
 |**Mninv5**| NMOS | 2u/1u |
-
 |**Mpbuffer**| PMOS | 8u/1u |
 |**Mnbuffer**| NMOS | 4u/1u |
 
@@ -57,7 +52,7 @@ All simulations and validations were performed in **LTspice**.
 
 ### Schematic
 
-![System Schematic](images/Current _Starved_Voltage_Controlled_Oscillator_VCO.jpg)
+![System Schematic](images/Current_Starved_Voltage_Controlled_Oscillator_VCO.jpg)
 
 ### Transient Analysis
 The system was evaluated using the values 1V, 1.2V, 1.5V, 1.8V for the voltage source Vcntrl to test the frequence change.
